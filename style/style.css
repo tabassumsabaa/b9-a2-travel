@@ -233,7 +233,11 @@
 .deals{
   text-align: center;
 }
-.deals h3{color: #131318;font-size: 40px;font-weight: 800;}
+.deals h3{
+   color: #131318;
+   font-size: 40px;
+   font-weight: 800;
+}
 .deals p{
   width: 40%;
   color: rgba(19, 19, 24, 0.70);
@@ -325,9 +329,6 @@ form{
    font-weight: 400;
    margin-bottom: 10px;
 }
-.footer-icon{
-
-}
 .footer-icon ul{
    display: flex;
    justify-content: space-evenly;
@@ -336,13 +337,6 @@ form{
    color: #000;
    margin: 10px;
 }
-.footer-icon ul li{
-}
-.footer-icon ul li a{
-
-}
-
-
 
 /* Responsive */
 /* mobile (600px and down)*/
@@ -351,7 +345,7 @@ form{
        width:100%;
         margin: 20px;
     }
-    .header-part, .famous, .form-container, .row-part-one{
+    .header-part, .famous, .form-container, .row-part-one, .form-part{
         flex-direction: column;
         text-align: center;
     }
@@ -396,7 +390,7 @@ form{
     .row-part-two{
       width: 75%;
     }
-    .famous{
+    .famous, .form-part{
       flex-direction:column;
     }
   .row-one , .row-two{
